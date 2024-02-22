@@ -110,6 +110,7 @@ img {
     border-radius: 5px;
     cursor: pointer;
     animation: fade-in 0.3s;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 img:hover{
@@ -136,12 +137,14 @@ button:hover{
 }
 
 footer{
-    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
     padding: 10px;
     background-color: #000;
     border-radius: 5px;
-    box-shadow: #333;
-    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     color: #fff;
     position: sticky;
     bottom: 0;
